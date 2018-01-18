@@ -10,10 +10,7 @@
     <title>Dustin's Portfolio</title>
 
     <!-- Bootstrap core CSS Modules -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link href="node_modules/animate.css/animate.min.css">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Belleza">
@@ -23,11 +20,25 @@
     
     <!-- Navigation -->
     <nav>
-        <h1>hey</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>  
     </nav>
 
     <!-- Header -->
     <header>
+        <h1>Dustin Burkert</h1>
     </header>
 
     <!-- Portfolio -->
@@ -54,7 +65,9 @@
 
     <!-- Bootstrap -->
 
-    <!-- jQuery -->
+    <!-- Bootstrap and jQuery scripts-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="./js/main.js"></script>
