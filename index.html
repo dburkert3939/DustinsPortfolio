@@ -1,76 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Dustin's Portfolio</title>
+  <title>Dustin's Portfolio</title>
 
-    <!-- Bootstrap core CSS Modules -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS Modules -->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Belleza">
-    <link rel="stylesheet" href="./css/main.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Belleza">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    
-    <!-- Navigation -->
-    <nav>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+
+  <!-- Navigation -->
+  <nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Dustin Burkert</h1>
+        <p class="lead">Just Keep Swimming!!!</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Portfolio -->
+  <section>
+    <div id="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+          <h5 class="mb-0">
+            <a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+              Strictly HTML/CSS Website
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+            labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+              CSS Structure Project
+            </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+            labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+              API Project
+            </a>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+            labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+  </section>
+
+  <!-- About -->
+  <section>
+    <h2>ABOUT ME</h2>
+      <ul class="list-inline">
+          <li class="list-inline-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam id tenetur fuga maiores nemo molestias, perferendis et illum sed, quos beatae quas repudiandae veritatis deleniti error ratione ab cupiditate provident!</li>
+          <li class="list-inline-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse error fuga porro autem dolorum provident odio tenetur laborum, corrupti voluptatibus aperiam impedit perspiciatis. Deserunt dolor eius repellendus cupiditate ipsa voluptatum!</li>
+          <li class="list-inline-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, facilis enim doloremque non, architecto dolore sint eveniet iusto tempora neque, consequatur accusamus velit hic! Aut voluptates voluptatibus pariatur optio enim.</li>
+        </ul>
+        <br>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="" method="post">
+              <fieldset>
+                <legend class="text-center">Contact Me</legend>
+
+                <!-- Name input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="name">Name</label>
+                  <div class="col-md-9">
+                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                  </div>
+                </div>
+
+                <!-- Email input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                  <div class="col-md-9">
+                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                  </div>
+                </div>
+
+                <!-- Message body -->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="message">Your message</label>
+                  <div class="col-md-9">
+                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                  </div>
+                </div>
+
+                <!-- Form actions -->
+                <div class="form-group">
+                  <div class="col-md-12 text-right">
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="col-lg-2 col-xs-12 text-center">
+          <a href="#">
+            <i class="fa fa-facebook fa-2x"></i>Facebook</a>
+        </div>
+        <div class="col-lg-2 col-xs-12 text-center">
+          <a href="#">
+            <i class="fa fa-twitter fa-2x"></i>Twitter</a>
+        </div>
+        <div class="col-lg-2 col-xs-12 text-center">
+          <a href="#">
+            <i class="fa fa-flickr fa-2x"></i>Flickr</a>
+        </div>
+        <div class="col-lg-2 col-xs-12 text-center">
+          <a href="#">
+            <i class="fa fa-tumblr fa-2x"></i>Tumblr</a>
+        </div>
+        <div class="col-lg-2 col-xs-12 text-center">
+          <a href="#">
+            <i class="fa fa-github fa-2x"></i>Github</a>
+        </div>
+        <div class="col-lg-2 col-xs-12 text-center">
+          <a href="#">
+            <i class="fa fa-google-plus fa-2x"></i>Google</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="border-top:1px solid grey;">
+      <div class="row text-center">
+        <div class="col-lg-6 col-lg-offset-3">
+          <ul class="menu">
+
+            <li>
+              <a href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+            <li>
+              <a href="#">Privacy</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <li>
+              <a href="#">Terms</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>  
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <h1>Dustin Burkert</h1>
-    </header>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-    <!-- Portfolio -->
-    <section>
-    </section>
+  </footer>
 
-    <!-- About -->
-    <section>
-    </section>
 
-    <!-- Contact -->
-    <section>
-    </section>
+  <div class="copyright">
+    <div class="container">
 
-    <!-- Footer -->
-    <footer>
-    </footer>
+      <div class="row text-center">
+        <p>Copyright © 2018 All rights reserved</p>
+      </div>
 
-    <!-- Copyright -->
+    </div>
+  </div>
+  </footer>
 
-    <!-- Modals --> 
+  <!-- Copyright -->
 
-    <!-- Scripts -->
+  <!-- Modals -->
 
-    <!-- Bootstrap -->
+  <!-- Scripts -->
 
-    <!-- Bootstrap and jQuery scripts-->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Bootstrap -->
 
-    <!-- Custom scripts for this template -->
-    <script src="./js/main.js"></script>
+  <!-- Bootstrap and jQuery scripts-->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="./js/main.js"></script>
 
 </body>
+
 </html>
