@@ -1,11 +1,28 @@
-/* General CSS stuff goes here */
+#main-nav {
+  background-color: black;
+  padding-top: 2rem;
+  font-size: 15px;
+  padding-bottom: 1rem;
+  transition-delay: 0.5s; }
 
-body {
-    background-color: green;
-}
-nav {
-    background-color: black;
-}
-footer {
-    background-color: orange;
-}
+#nav-link {
+  background-color: red; }
+
+.jumbotron {
+  background: url(http://14043-presscdn-0-31.pagely.netdna-cdn.com/wp-content/uploads/2013/05/tpc-sawgrass-17th-hole.jpg) no-repeat left;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.container {
+  color: black;
+  text-indent: 6em; }
+
+p {
+  text-indent: 8em;
+  text-transform: uppercase; }
+
+#portfolio {
+  background-color: #23b623; }
+
+#main-footer {
+  background-color: orange; }
